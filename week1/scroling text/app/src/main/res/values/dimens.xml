@@ -2,4 +2,6 @@
 <resources>
     <dimen name="padding_regular">10dp</dimen>
     <dimen name="line_spacing">5sp</dimen>
+    <dimen name="text_size_heading">18sp</dimen>
+    <dimen name="text_size_sub_heading">14sp</dimen>
 </resources>

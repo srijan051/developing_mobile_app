@@ -15,27 +15,44 @@
         android:text="@string/article_title"
         android:textAppearance="@android:style/DeviceDefault.Light.ButtonBar"
         android:textColor="@color/colorWhite"
-        android:textStyle="bold" />
+        android:textSize="@dimen/text_size_heading"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
 
-    <TextView
-        android:id="@+id/article_subheading"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/article_heading"
-        android:background="@color/colorPrimary"
-        android:padding="@dimen/padding_regular"
-        android:text="@string/article_subtitle"
-        android:textAppearance="@android:style/DeviceDefault.ButtonBar"
-        android:textColor="@color/colorWhite"
-        android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/article"
-        android:layout_width="match_parent"
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/article_subheading"
-        android:lineSpacingExtra="5sp"
-        android:text="@string/article_text"
-        android:textAppearance="@android:style/DeviceDefault"
-        />
+        android:layout_below="@id/article_heading">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/article_subheading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_regular"
+                android:text="@string/article_subtitle"
+                android:textAppearance="@android:style/DeviceDefault.ButtonBar"
+                android:textSize="@dimen/text_size_sub_heading"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/article"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:autoLink="web"
+                android:lineSpacingExtra="@dimen/line_spacing"
+                android:padding="@dimen/padding_regular"
+                android:text="@string/article_text" />
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>
