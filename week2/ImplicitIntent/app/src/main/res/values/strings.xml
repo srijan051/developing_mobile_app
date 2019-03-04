@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ImplicitIntent</string>
+    <string name="enter_web_address">Enter Web Address</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="share_this_text">Share this Text</string>
+    <string name="button_open_website">Open Website</string>
+    <string name="button_open_location">Open Location</string>
+    <string name="button_share_this_text">Share this Text</string>
+    <string name="share_text_with">Share Text with : </string>
+    <string name="button_take_picture">Take a Picture</string>
+</resources>
