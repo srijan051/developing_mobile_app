@@ -1,4 +1,4 @@
-package com.example.helloconstraint;
+package com.example.SayHello;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

@@ -1,4 +1,4 @@
-package com.example.helloconstraint;
+package com.example.SayHello;
 
 import org.junit.Test;
 
