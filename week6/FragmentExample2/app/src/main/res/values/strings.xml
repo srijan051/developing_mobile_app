@@ -1,8 +1,5 @@
-
-
 <resources>
-    <string name="app_name">FragmentExample</string>
-
+    <string name="app_name">FragmentExample2</string>
     <!-- Placeholder text for this example. -->
     <string name="title1">Cry for a Shadow</string>
     <string name="article1">Many a Beatle fanatic started down the outtake
@@ -27,5 +24,4 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
 </resources>
