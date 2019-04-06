@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CounterHomeWork</string>
+    <string name="button_count">Count</string>
+    <string name="textview_0">0</string>
+    <string name="plaintext_this_is_an_edit_text">This is an edit Text</string>
+    <string name="toast_message">Here is the</string>
+    <string name="edit_text_value">here</string>
+</resources>
