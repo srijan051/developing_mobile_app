@@ -1,4 +1,4 @@
-package com.example.recyclerview;
+package com.example.recyclerviewhw;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.recyclerview", appContext.getPackageName());
+        assertEquals("com.example.recyclerviewhw", appContext.getPackageName());
     }
 }

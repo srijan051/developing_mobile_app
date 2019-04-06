@@ -1,4 +1,4 @@
-package com.example.recyclerview;
+package com.example.recyclerviewhw;
 
 import org.junit.Test;
 
